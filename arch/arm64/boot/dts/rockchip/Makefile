@@ -135,6 +135,11 @@ dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-evb-v14-linux.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-evb-v14-multi-cam-avb.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-npu-evb-v10.dtb
 dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-npu-evb-v10-multi-cam.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-toybrick-prod-linux-edp.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-toybrick-prod-linux-imx258.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-toybrick-prod-linux-mipi.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-toybrick-prod-linux-u2.dtb
+dtb-$(CONFIG_ARCH_ROCKCHIP) += rk3399pro-toybrick-prod-linux.dtb
 
 always		:= $(dtb-y)
 subdir-y	:= $(dts-dirs)
